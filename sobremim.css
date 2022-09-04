@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: white;
 }
 body{
     overflow-x: hidden;/*remove o scrrol inferior da pagina*/
@@ -23,9 +25,17 @@ ul{
     padding: 30px;
 }
 li{
-    padding-left: 30px;
+    margin-left: 30px;
     display: inline;
     color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: rgb(119, 0, 255);
+    border-color: rgb(119, 0, 255);;
 }
 main{ /*Configurando imagem para ficar na tela inteira*/
     padding-top: 20px;
@@ -52,7 +62,12 @@ p{
     color: white;
 }
 footer{
+    height: 5vh;
     background-color: rgb(155, 40, 40);
+}
+footer > p{
+    padding-top: 1vh;
+    text-align: center;
 }
 footer > p > a{
     text-decoration: none;

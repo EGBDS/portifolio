@@ -27,9 +27,17 @@ ul{
     padding: 30px;
 }
 li{
-    padding-left: 30px;
+    margin-left: 30px;
     display: inline;
     color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: rgb(119, 0, 255);
+    border-color: rgb(119, 0, 255);;
 }
 main{ /*Configurando imagem para ficar na tela inteira*/
     padding-top: 20px;
@@ -40,14 +48,20 @@ main{ /*Configurando imagem para ficar na tela inteira*/
     background-size: cover;
 }
 img{
-    min-width: none;
+    padding: 10px 10px;
+    border-radius: 20px;
 }
 #posicionamento{
     padding: 10%;
     text-align: center;
 }
 footer{
+    height: 5vh;
     background-color: rgb(155, 40, 40);
+}
+footer > p{
+    padding-top: 1vh;
+    text-align: center;
 }
 footer > p > a{
     text-decoration: none;

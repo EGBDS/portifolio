@@ -4,10 +4,11 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    color: white;
 }
 body{
     overflow-x: hidden;/*remove o scrrol inferior da pagina*/
-    overflow-y: hidden;/*remove o scrrol vertical da pagina*/
     height: 100vh;
     width: 100vw;
     /*width: 100vw;
@@ -30,9 +31,17 @@ ul{
     padding: 30px;
 }
 li{
-    padding-left: 30px;
+    margin-left: 30px;
     display: inline;
     color: white;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+li:hover{
+    background-color: rgb(119, 0, 255);
+    border-color: rgb(119, 0, 255);;
 }
 main{
     height: 100vh;
@@ -47,8 +56,10 @@ main{ /*Configurando imagem para ficar na tela inteira*/
 h1{
     display: flex;
 }
-
 .linha{
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.459);
+    margin-top: 40vh;
     border-right: 2px solid white;
     font-size: 1.5em;
     text-align: center;
@@ -76,7 +87,12 @@ h1{
     }
 }
 footer{
+    height: 5vh;
     background-color: rgb(155, 40, 40);
+}
+footer > p{
+    padding-top: 1vh;
+    text-align: center;
 }
 footer > p > a{
     text-decoration: none;
