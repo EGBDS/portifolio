@@ -13,7 +13,7 @@ body{
     background-size: 100% 100%;*/
 }
 header{
-    height: 10vh;
+    height: 100px;
     background-color: rgb(116, 99, 99);
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.466), rgba(255, 0, 0, 0.637));
 }
@@ -21,13 +21,17 @@ nav{
     text-align: left;
     padding-top: 10px;
 }
+ul{
+    padding: 30px;
+}
 li{
     padding-left: 30px;
     display: inline;
     color: white;
 }
 main{
-    background-color: aqua;
+    height: 100vh;
+    background: url(imagens/img-fundo.jpg) no-repeat fixed;
 }
 footer{
     background-color: rebeccapurple;
