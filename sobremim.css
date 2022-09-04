@@ -7,15 +7,8 @@
 }
 body{
     overflow-x: hidden;/*remove o scrrol inferior da pagina*/
-    overflow-y: hidden;/*remove o scrrol vertical da pagina*/
     height: 100vh;
     width: 100vw;
-    /*width: 100vw;
-    height: 100vh;
-    background-image: url(imagens/img-fundo.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;*/
 }
 header{
     height: 100px;
@@ -34,46 +27,28 @@ li{
     display: inline;
     color: white;
 }
-main{
-    height: 100vh;
-}
 main{ /*Configurando imagem para ficar na tela inteira*/
+    padding-top: 20px;
     position: relative;
     height: 100vh;
     width: 100vw;
     background: url(imagens/img-fundo.jpg) no-repeat fixed;
     background-size: cover;
-}
-h1{
-    display: flex;
-}
-
-.linha{
-    border-right: 2px solid white;
     font-size: 1.5em;
-    text-align: center;
+}
+#fundo-branco{
+    height: 100;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+h1, h2, h3{
+    padding-left: 5px;
+    display: flex;
+    color: rgb(188, 244, 252);
+}
+p{
+    text-align: justify;
+    padding-left: 8px;
     color: white;
-    white-space: nowrap; /*não quebra*/
-    overflow: hidden;/*esconde o texto comforme o width aumenta*/
-}
-.tipo-animacao{ /*keyframes para as animações*/
-    animation: cursor-text 500ms steps(40) infinite normal, typing-animation-text 5s steps(40) normal both;
-}
-@keyframes typing-animation-text {
-    from{
-        width: 0;
-    }
-    to{
-        width: 25em;
-    }
-}
-@keyframes cursor-text {
-    from{
-    border-right-color: white;
-    }
-    to{
-        border-right-color: transparent;
-    }
 }
 footer{
     background-color: rebeccapurple;
