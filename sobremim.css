@@ -66,10 +66,17 @@ footer{
     background-color: rgb(155, 40, 40);
 }
 footer > p{
-    padding-top: 1vh;
+    padding-top: 1.3vh;
     text-align: center;
 }
 footer > p > a{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
     text-decoration: none;
     color: white;
+}
+footer > p > a:hover{
+    border-color: rgb(119, 0, 255);
+    background-color: rgb(119, 0, 255);
 }

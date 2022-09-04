@@ -48,8 +48,13 @@ main{ /*Configurando imagem para ficar na tela inteira*/
     background-size: cover;
 }
 img{
-    padding: 10px 10px;
-    border-radius: 20px;
+    margin: 10px;
+    border: 10px;
+    border-style:solid;
+    border-image:linear-gradient(to right, red, black) 1;
+}
+img:hover{
+    border-image:linear-gradient(to right, black, red) 1;
 }
 #posicionamento{
     padding: 10%;
@@ -60,10 +65,17 @@ footer{
     background-color: rgb(155, 40, 40);
 }
 footer > p{
-    padding-top: 1vh;
+    padding-top: 1.3vh;
     text-align: center;
 }
 footer > p > a{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
     text-decoration: none;
     color: white;
+}
+footer > p > a:hover{
+    border-color: rgb(119, 0, 255);
+    background-color: rgb(119, 0, 255);
 }

@@ -43,9 +43,6 @@ li:hover{
     background-color: rgb(119, 0, 255);
     border-color: rgb(119, 0, 255);;
 }
-main{
-    height: 100vh;
-}
 main{ /*Configurando imagem para ficar na tela inteira*/
     position: relative;
     height: 100vh;
@@ -56,46 +53,45 @@ main{ /*Configurando imagem para ficar na tela inteira*/
 h1{
     display: flex;
 }
-.linha{
-    border-radius: 5px;
-    background-color: rgba(128, 128, 128, 0.459);
-    margin-top: 40vh;
-    border-right: 2px solid white;
-    font-size: 1.5em;
+.efeito-escrever::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+@keyframes pisca{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+p{
+    padding-top: 45vh;
+    padding-left: 2vw;
     text-align: center;
-    color: white;
-    white-space: nowrap; /*não quebra*/
-    overflow: hidden;/*esconde o texto comforme o width aumenta*/
-}
-.tipo-animacao{ /*keyframes para as animações*/
-    animation: cursor-text 500ms steps(40) infinite normal, typing-animation-text 5s steps(40) normal both;
-}
-@keyframes typing-animation-text {
-    from{
-        width: 0;
-    }
-    to{
-        width: 25em;
-    }
-}
-@keyframes cursor-text {
-    from{
-    border-right-color: white;
-    }
-    to{
-        border-right-color: transparent;
-    }
 }
 footer{
     height: 5vh;
     background-color: rgb(155, 40, 40);
 }
 footer > p{
-    padding-top: 1vh;
+    padding-top: 1.3vh;
     text-align: center;
 }
 footer > p > a{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: black;
     text-decoration: none;
     color: white;
+}
+footer > p > a:hover{
+    border-color: rgb(119, 0, 255);
+    background-color: rgb(119, 0, 255);
 }
 
