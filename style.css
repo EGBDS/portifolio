@@ -74,7 +74,8 @@ h1{
 }
 p{
     padding-top: 45vh;
-    padding-left: 2vw;
+    padding-left: 20%;
+    padding-right: 20%;
     text-align: center;
 }
 footer{
