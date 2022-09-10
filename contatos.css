@@ -48,6 +48,10 @@ main{ /*Configurando imagem para ficar na tela inteira*/
     background-size: cover;
 }
 img{
+    width: 80vw;
+    max-width: 553px;
+    height: 20vh;
+    min-height: 160px;
     margin: 10px;
     border: 10px;
     border-style:solid;
@@ -58,6 +62,7 @@ img:hover{
 }
 #posicionamento{
     text-align: center;
+    padding: 10px;
 }
 footer{
     height: 10vh;
