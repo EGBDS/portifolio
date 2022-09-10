@@ -51,11 +51,12 @@ main{ /*Configurando imagem para ficar na tela inteira*/
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(128, 128, 128, 0.644));
 }
 h1, h2, h3{
+    text-align: center;
     padding-left: 5px;
-    display: flex;
     color: rgb(188, 244, 252);
 }
 p{
+    text-indent: 10px;
     text-align: justify;
     padding-left: 15px;
     padding-right: 35px;
