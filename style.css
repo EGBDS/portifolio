@@ -51,6 +51,8 @@ main{ /*Configurando imagem para ficar na tela inteira*/
     background-size: cover;
 }
 h1{
+   padding-left: 11vw;
+   padding-right: 11vw;
     display: flex;
 }
 .efeito-escrever::after{
