@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/*
+    Paleta de cores:
+    390060
+    25003F
+    0E0017
+    000000
+*/
+*{
+    /*resetando as configurações*/
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    list-style: none;
+    background-color: #0E0017;
+}
+main{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    /*faz com que duas div ou tags fiquem lado-a-lado */
+}
+#foto_perfil{
+    border-radius: 300px;
+    border-style: solid;
+    border-color: black;
+}
