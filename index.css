@@ -16,6 +16,7 @@
     list-style: none;
 }
 main{
+    width: 100vw;
     display: inline-grid;
     grid-template-columns: auto auto;
     background-color: #0E0017;
@@ -34,4 +35,16 @@ main{
     display: flexbox;
     max-width: 70vh;
     min-width: 350px;
+}
+ul{
+    word-wrap: normal;
+}
+a{
+    text-decoration: underline;
+    color: wheat;
+}
+.cor-li-fundo{
+    margin: 2% 10% 4% 10%;
+    background-color: rgb(88, 8, 8);
+    border-radius: 20px;
 }
