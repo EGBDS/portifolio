@@ -14,15 +14,24 @@
     font-family: 'Cinzel', serif;
     text-decoration: none;
     list-style: none;
-    background-color: #0E0017;
 }
 main{
     display: inline-grid;
     grid-template-columns: auto auto;
+    background-color: #0E0017;
     /*faz com que duas div ou tags fiquem lado-a-lado */
 }
 #foto_perfil{
-    border-radius: 300px;
+    border-radius: 200px;
     border-style: solid;
     border-color: black;
+}
+.back-div{
+    border-radius: 20px;
+    margin: 3vw;
+    background-color: #25003F;
+    text-align: center;
+    display: flexbox;
+    max-width: 70vh;
+    min-width: 350px;
 }
