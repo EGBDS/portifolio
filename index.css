@@ -21,7 +21,7 @@ body{
     background-color: #0E0017;
 }
 main{
-    max-width: 40vw;
+    max-width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto;
     /*faz com que duas div ou tags fiquem lado-a-lado */
@@ -37,7 +37,6 @@ main{
     margin: 3vw;
     background-color: #25003F;
     text-align: center;
-    display: flexbox;
 }
 .back-div-dois{
     padding: 3% 0% 3% 0%;
@@ -45,12 +44,11 @@ main{
     margin: 3vw;
     background-color: #25003F;
     text-align: center;
-    display: flexbox;
+    display: block;
     min-width: 66vw;
 }
 .img-projetos{
-    display: inline;
-    width: 20vw;
+    width: 22%;
 }
 ul{
     word-wrap: normal;
@@ -63,4 +61,8 @@ a{
     margin: 2% 10% 4% 10%;
     background-color: rgb(88, 8, 8);
     border-radius: 20px;
+}
+#img-ao-lado{
+    display: flex;
+    align-items: center;
 }
