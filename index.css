@@ -8,18 +8,22 @@
 */
 *{
     /*resetando as configurações*/
+    box-sizing: border-box;
     color: white;
     margin: 0px;
     padding: 0px;
     font-family: 'Cinzel', serif;
     text-decoration: none;
     list-style: none;
+    font-size: 18px;
+}
+body{
+    background-color: #0E0017;
 }
 main{
-    width: 100vw;
+    max-width: 40vw;
     display: inline-grid;
     grid-template-columns: auto auto;
-    background-color: #0E0017;
     /*faz com que duas div ou tags fiquem lado-a-lado */
 }
 #foto_perfil{
@@ -28,18 +32,25 @@ main{
     border-color: rgb(255, 0, 0);
 }
 .back-div{
+    padding: 3% 0% 3% 0%;
     border-radius: 20px;
     margin: 3vw;
     background-color: #25003F;
     text-align: center;
     display: flexbox;
-    max-width: 70vh;
-    min-width: 350px;
+}
+.back-div-dois{
+    padding: 3% 0% 3% 0%;
+    border-radius: 20px;
+    margin: 3vw;
+    background-color: #25003F;
+    text-align: center;
+    display: flexbox;
+    min-width: 66vw;
 }
 .img-projetos{
-    text-align: center;
-    width: 30vw;
-    height: auto;
+    display: inline;
+    width: 20vw;
 }
 ul{
     word-wrap: normal;
