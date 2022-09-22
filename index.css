@@ -26,6 +26,11 @@ main{
     grid-template-columns: auto auto;
     /*faz com que duas div ou tags fiquem lado-a-lado */
 }
+@media screen and (min-width: 900px){
+    .botao{
+        padding-left: 200px;
+    }
+}
 #foto_perfil{
     border-radius: 200px;
     border-style: solid;
@@ -39,6 +44,12 @@ main{
     background-color: #3f026b;
     text-align: center;
 }
+.back-div ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; /*espaçamento entra os icones e o texto*/
+}
 .back-div > h1{
     font-size: 30px;
 }
@@ -51,9 +62,15 @@ main{
     display: block;
     min-width: 66vw;
 }
+#contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .resolucao-img{
     height: 40%;
     width: 40%;
+    filter: drop-shadow( 0px 0px 10px #ea04ff);
 }
 .img-projetos{
     width: 22%;
