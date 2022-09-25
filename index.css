@@ -82,7 +82,6 @@ a:hover{
     color: rgb(247, 196, 102);
 }
 #img-ao-lado{
-    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
