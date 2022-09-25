@@ -82,8 +82,13 @@ a:hover{
     color: rgb(247, 196, 102);
 }
 #img-ao-lado{
+    margin-top: 2%;
     display: flex;
+    justify-content: center;
     align-items: center;
+}
+.borda-redodnda{
+    border-radius: 100px;
 }
 /*@media screen and (max-width: 900px){
     body{
