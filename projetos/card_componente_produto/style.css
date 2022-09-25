@@ -74,21 +74,34 @@ a{
 
 }
 
-@media screen and (min-width: 350px){
+@media screen and (min-width: 500px){
     #resolucao-img{
         display: none;
     }
     #resolucao-img-desk{
         border-radius: 10px 0px 0px 10px;
         width: 50%;
-        height: 50%;
+        height: 100%;
         display: block;
     }
     .card{
+        min-width: 805;
+        margin: 5vh;
         width: 50%;
         height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (max-width: 950px){
+    #resolucao-img{
+        display: block;
+    }
+    #resolucao-img-desk{
+        display: none;
+    }
+    .card{
+        display: block;
     }
 }

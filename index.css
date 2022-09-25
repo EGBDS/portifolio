@@ -87,9 +87,6 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-.borda-redodnda{
-    border-radius: 100px;
-}
 /*@media screen and (max-width: 900px){
     body{
         display: none;
