@@ -87,6 +87,12 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+
+.img-tam {
+    margin-top: 4%;
+    width: 60%;
+}
+
 @media screen and (max-width: 950px){
     #img-ao-lado{
         justify-content: center;
