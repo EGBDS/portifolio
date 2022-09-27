@@ -98,4 +98,7 @@ a:hover{
     body{
         display: block;
     }
+    .img-tam {
+        width: 80%;
+    }
 }
