@@ -22,10 +22,11 @@ main {
     background-color: rgb(15, 7, 128);
 
     position: absolute;
-    top: 40vh;
-    left: 50vw;
-    margin-top: -55%;
-    margin-left: -40%;
+    width: 40vw;
+    top: 40%;
+    left: 50%;
+    margin-top: -28%;
+    margin-left: -17%;
 }
 .tam-img {
     border-radius: 10px;
@@ -36,7 +37,7 @@ main {
 }
 
 .tam-img-perfil {
-    width: 50px;
+    width: 15%;
     border-radius: 300px;
     box-shadow: 1px 1px 5px 5px white ;
 }
@@ -55,19 +56,26 @@ h1 {
 
 .conteudo-img {
     margin: 5%;
-    padding-bottom: 5px;
+    padding-bottom: 4%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
 }
+
+.conteudo-footer {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+}
+
+.conteudo-footer p {
+    padding-left: 4%;
+}
+
 strong{
     color: white;
 }
 
 #cor-eth {
     color: aquamarine;
-}
-
-#text-space {
-    
 }
