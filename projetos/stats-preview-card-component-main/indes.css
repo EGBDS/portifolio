@@ -13,10 +13,10 @@ body {
 }
 
 main {
-    max-width: 1024px;
-    min-width: 1024px;
+    max-width: 1025px;
+    min-width: 1020px;
     border-radius: 10px;
-    margin: 10% 5% 9% 5%;
+    margin: 5% 5% 9% 5%;
     display: flex;
     background-color: darkblue;
     max-height: 400px;
@@ -47,6 +47,7 @@ main {
 }
 
 .conteudo-texto h3 ul{
+    padding: 0;
     display: inline-flex;
     text-align: center;
     list-style-type: none; /*remove os pontos da ul*/
@@ -78,7 +79,26 @@ main {
     background-color: darkorchid;
 }
 
-.conteudo-img img {
+.conteudo-img-mobile {   
+    display: none;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: darkorchid;
+}
+
+.img-mobile {
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    height: 100%;
+
+    /*logo a baixo faz com que a imagem tenha uma cor meio transparente por cima da mesma*/
+    opacity: 0.5;  
+    filter: alpha(opacity=50);
+}
+
+.img-desk {
     
     border-radius: 0px 10px 10px 0px;
     width: 100%;
@@ -89,3 +109,71 @@ main {
     filter: alpha(opacity=50); 
 }
 
+@media (max-width: 1000px){
+    
+    body {
+        overflow-y: auto;
+    }
+
+    main {
+        border-radius: 10px;
+        margin: 30px 10px ;
+        min-width: 300px;
+        max-width: 300px; 
+        width: 5%;
+        max-height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .conteudo-img {
+        display: none;
+    }
+
+    .conteudo-img-mobile {
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .img-mobile {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .conteudo-texto {
+        margin: 6% 0% 0% 0%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-texto h3 ul{
+        display: grid;
+        justify-content: center;
+        list-style-type: none; /*remove os pontos da ul*/
+    }
+    
+    .conteudo-texto h3 ul li{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1431px){
+    main {
+        margin: 10% 0% 9% 5%;
+    }
+}
+
+@media screen and (min-width: 1431px) and (max-width: 2000px){
+    main {
+        margin: 5% 0% 9% 5%;
+    }
+}
