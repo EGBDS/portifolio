@@ -87,29 +87,45 @@ h1 {
     font-size: 25px;
 }
 
+h1:hover {
+    cursor: pointer;
+    color: aqua;
+}
+
+.conteudo-pai {
+    margin: 5% 0% 5% 0%;
+}
+
+.conteudo-pai p , h1 {
+    margin: 5% 0% 5% 0%;
+}
+
 .conteudo {
-    margin: 5%;
     display: flex;
     text-align: left;
     color: white;
 }
 
 .conteudo-img {
-    margin: 5%;
+    margin: 4% 0% 4% 0%;
     padding-bottom: 4%;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid white;
 }
 
-.conteudo-footer {
+.conteudo-footer { margin: 4% 0% 4% 0%;
     display: flex;
     align-items: center;
-    margin: 5%;
 }
 
 .conteudo-footer p {
-    padding-left: 4%;
+    padding-left: 8%;
+}
+
+.conteudo-footer p strong:hover {
+    color: aqua;
+    cursor: pointer;
 }
 
 strong{
