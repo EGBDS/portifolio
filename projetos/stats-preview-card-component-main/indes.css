@@ -16,7 +16,7 @@ main {
     max-width: 1025px;
     min-width: 1020px;
     border-radius: 10px;
-    margin: 5% 5% 9% 5%;
+    margin: 8% 5% 9% 8%;
     display: flex;
     background-color: darkblue;
     max-height: 400px;
@@ -71,6 +71,7 @@ main {
 }
 
 .conteudo-img {   
+    border-radius: 0px 10px 10px 0px;
     display: flex;
     justify-content: center;
     text-align: center;
