@@ -1,6 +1,53 @@
 @charset "UTF-8";
 
+/* tem que relacionar os id's com grid-area */
+/* grid-clumn-start/end = começo e fim em relação a coluna, que são 4 no caso e o row e o mesmo só que com linha */
+
+#grid-item-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-area: grid-item-1;
+}
+
+#grid-item-2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-area: grid-item-2;
+}
+
+#grid-item-3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-area: grid-item-3;
+}
+
+#grid-item-4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-area: grid-item-4;
+}
+
+#grid-item-5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-area: grid-item-5;
+}
+
+/* configurando */
+
 .grid-container {
     display: grid;
-    grid-column: 4;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+
+    grid-template-areas: 
+        'grid-item-1 grid-item-1 grid-item-2 grid-item-3'
+        'grid-item-4 grid-item-5 grid-item-5 grid-item-3';
+
+    grid-template-rows: 100px 100px 100px 1fr; /*fr = fração de espaço livre*/
+}
+
+.grid-container div {
+    border: 3px solid black;
 }
