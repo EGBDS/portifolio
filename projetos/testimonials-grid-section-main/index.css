@@ -4,10 +4,20 @@
 /* grid-clumn-start/end = começo e fim em relação a coluna, que são 4 no caso e o row e o mesmo só que com linha */
 
 #grid-item-1 {
+    width: 100%;
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-area: grid-item-1;
+}
+
+#grid-item-1 h1, p {
+    width: 100%;
+    height: auto;
+}
+
+#grid-item-1 div {
+    border: none;
 }
 
 #grid-item-2 {
@@ -16,10 +26,28 @@
     grid-area: grid-item-2;
 }
 
+#grid-item-2 h1, p {
+    width: 100%;
+    height: auto;
+}
+
+#grid-item-2 div {
+    border: none;
+}
+
 #grid-item-3 {
     grid-column-start: 4;
     grid-column-end: 4;
     grid-area: grid-item-3;
+}
+
+#grid-item-3 h1, p {
+    width: 100%;
+    height: auto;
+}
+
+#grid-item-3 div {
+    border: none;
 }
 
 #grid-item-4 {
@@ -28,26 +56,72 @@
     grid-area: grid-item-4;
 }
 
+#grid-item-4 h1, p {
+    width: 100%;
+    height: auto;
+}
+
+#grid-item-4 div {
+    border: none;
+}
+
+
 #grid-item-5 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-area: grid-item-5;
 }
 
+#grid-item-5 h1, p {
+    width: 100%;
+    height: auto;
+}
+
+#grid-item-5 div {
+    border: none;
+}
+
+
 /* configurando */
 
 .grid-container {
+    height: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 5px;
+    gap: 10px;
 
     grid-template-areas: 
         'grid-item-1 grid-item-1 grid-item-2 grid-item-3'
         'grid-item-4 grid-item-5 grid-item-5 grid-item-3';
 
-    grid-template-rows: 100px 100px 100px 1fr; /*fr = fração de espaço livre*/
+    grid-template-rows: auto auto auto auto; /*fr = fração de espaço livre*/
 }
 
 .grid-container div {
     border: 3px solid black;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 30px;
+}
+
+img {
+    width: 40px;
+    border-radius: 60px;
+}
+
+h1 {
+    font-size: 15px;
+}
+
+.nome-ao-lado {
+    display: contents;
+    justify-content: center;
+    text-align: center;
 }
