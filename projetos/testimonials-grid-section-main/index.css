@@ -20,6 +20,8 @@
     grid-column-start: 1;
     grid-column-end: 2;
     grid-area: grid-item-1;
+
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 #grid-item-1 h1, p {
@@ -35,6 +37,11 @@
     grid-column-start: 3;
     grid-column-end: 3;
     grid-area: grid-item-2;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 #grid-item-2 h1, p {
@@ -50,6 +57,10 @@
     grid-column-start: 4;
     grid-column-end: 4;
     grid-area: grid-item-3;
+    border-radius: 10px;
+    color: black;
+
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 #grid-item-3 h1, p {
@@ -65,6 +76,9 @@
     grid-column-start: 1;
     grid-column-end: 1;
     grid-area: grid-item-4;
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 #grid-item-4 h1, p {
@@ -81,6 +95,11 @@
     grid-column-start: 2;
     grid-column-end: 3;
     grid-area: grid-item-5;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+
+    box-shadow: 1px 1px 1px 1px black;
 }
 
 #grid-item-5 h1, p {
@@ -106,10 +125,6 @@
         'grid-item-4 grid-item-5 grid-item-5 grid-item-3';
 
     grid-template-rows: auto auto auto auto; /*fr = fração de espaço livre*/
-}
-
-.grid-container div {
-    border: 3px solid black;
 }
 
 * {
@@ -157,4 +172,11 @@ h1 {
 
 .margin-conteudo p, h1{
     padding: 4% 2% 4% 2%;
+}
+
+
+@media (max-width: 600px) {
+    .grid-container {
+        display: block;
+    }
 }
