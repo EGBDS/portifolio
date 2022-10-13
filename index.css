@@ -50,48 +50,14 @@ main{
     font-size: 30px;
 }
 .back-div-dois{
-    width: 60vw;
+    padding: 3% 0% 3% 0%;
     border-radius: 20px;
+    margin: 3vw;
     background-color: #3f026b;
     text-align: center;
     display: block;
     min-width: 66vw;
 }
-
-/* Configuragando o carousel -> */
-
-#items-carousel {
-    /* width: 100vw; */
-}
-
-#items-carousel #items img {
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover; /*cobre toda 'visão' que tiver (30%)*/
-}
-
-#items {
-    display: flex;
-
-    overflow-x: auto; /*habilida o scroll*/
-
-    scroll-snap-type: x mandatory; /*(pai)ao soltar o mouse antes de passar a imagem toda, ele passa para a próxima imagem*/
-
-    -webkit-overflow-scrolling: touch; /*para funcionar em alguns navegadores*/
-}
-
-.item{
-    flex: none;
-
-    width: 100%;
-
-    scroll-snap-align: start; /*ele se alinha ao inicio da imagem,ve qual imagem está maior e vai automaticamente para ela*/
-}
-
-/* final do carousel */
-
 #contatos{
     display: flex;
     flex-direction: column;
@@ -102,7 +68,9 @@ main{
     width: 40%;
     filter: drop-shadow( 0px 0px 10px #ea04ff);
 }
-
+.img-projetos{
+    width: 22%;
+}
 ul{
     word-wrap: normal;
 }
@@ -113,8 +81,26 @@ a{
 a:hover{
     color: rgb(247, 196, 102);
 }
+#img-ao-lado{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-tam {
+    margin-top: 4%;
+    width: 60%;
+}
 
 @media screen and (max-width: 950px){
+    #img-ao-lado{
+        justify-content: center;
+        width: 20;
+    }
+    #img-ao-lado img{
+        width: 80%;
+    }
     body{
         display: block;
     }
@@ -122,4 +108,3 @@ a:hover{
         width: 80%;
     }
 }
-
