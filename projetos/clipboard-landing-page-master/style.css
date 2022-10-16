@@ -99,4 +99,64 @@ main > p{
     text-align: center;
     display: flex;
     max-width: 80vw;
+    margin-bottom: 6%;
 }
+
+.main-flex-supercharge > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.margin-elementos-supercharge {
+    margin: 3%;
+}
+
+.main-logo-empresas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo-empresas  img{
+    height: 100%;
+    margin: 8% 8% 15% 8%;
+}
+
+.links-dowloads-inferiores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10%;
+}   
+.links-dowloads-inferiores a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+ footer > img {
+    justify-content: center;
+    align-items: center;
+    width: 4%;
+    height: 4%;
+    margin: 0% 5% 0% 5%;
+ }
+
+ footer > ol {
+    
+ }
+ 
+ footer > ol > li {
+    margin: 10%;
+ }
