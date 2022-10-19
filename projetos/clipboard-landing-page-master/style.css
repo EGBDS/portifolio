@@ -142,21 +142,70 @@ main > p{
 
 footer {
     width: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-between;
 }
- footer > img {
+
+li {
+    list-style: none;
+    margin: 10% 0% 0% 0%;
+}
+
+footer > img {
     justify-content: center;
     align-items: center;
-    width: 4%;
-    height: 4%;
+    width: 6%;
+    height: 80%;
     margin: 0% 5% 0% 5%;
- }
+}
 
- footer > ol {
-    
- }
+footer > ul {
+    display: flex;
+    width: 80%;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.footer-text-primeiro {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+}
  
- footer > ol > li {
+.footer-text-segundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-text-terceiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-terceiro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > ul > li {
     margin: 10%;
  }
+
+
+.redes-socias {
+    display: flex;
+    justify-content:  center;
+    text-align: center;
+    width: 8%;
+}
+
+.redes-socias img {
+    height: 30%;
+    
+}
