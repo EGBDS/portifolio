@@ -150,6 +150,12 @@ footer {
 li {
     list-style: none;
     margin: 10% 0% 0% 0%;
+    font-size: large;
+}
+
+li:hover {
+    cursor: pointer;
+    color: darkblue;
 }
 
 footer > img {
@@ -157,7 +163,7 @@ footer > img {
     align-items: center;
     width: 6%;
     height: 80%;
-    margin: 0% 5% 0% 5%;
+    margin: 1% 5% 0% 5%;
 }
 
 footer > ul {
@@ -203,9 +209,21 @@ footer > ul > li {
     justify-content:  center;
     text-align: center;
     width: 8%;
+    margin: 0% 5% 0% 0%;
 }
 
 .redes-socias img {
-    height: 30%;
+    height: 40%;
+}
+
+.redes-socias a {
+    margin: 30% 5% 0% 5%;
+}
+
+.redes-socias a:hover img {
+    filter: opacity(40%) drop-shadow(0 0 0 darkblue); /*altera a cor da imagem*/
+}
+
+@media (max-width: 1000px){
     
 }
