@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 header {
@@ -64,6 +65,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 main h1{
@@ -226,10 +228,22 @@ footer > ul > li {
 
 @media (max-width: 1000px){
 
+    body {
+        min-width: 500px;
+    }
+
     .main-flex {
         display: flex;
         flex-direction: column;
     }
+
+    .main-flex > img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+    }
+
     .links-dowloads {
         display: flex;
         flex-direction: column;
