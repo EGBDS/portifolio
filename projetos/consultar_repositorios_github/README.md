@@ -10,11 +10,11 @@ Nas linhas 7 e 8 utilizo o 'form' do html para servir de parâmetro para quando 
 
 Nas linhas 11 e 12 recebo alguns 'value' dos query feitos.
 
-Utilizando o método <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch">'fetch()'</a> inseri a api estática e que no final recebe parâmetros para ser modificada quando o usuário necessitar.
+Utilizando o método <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch">fetch()</a> inseri a api estática e que no final recebe parâmetros para ser modificada quando o usuário necessitar.
 
-Para receber os dados da api do github em formato <a href="https://www.w3schools.com/js/js_json.asp">'json()'</a>, foi utilizado o <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">'.then()'</a> que armazena os dados do <a href="https://www.w3schools.com/js/js_json.asp">'json()'</a> em alguma variável.
+Para receber os dados da api do github em formato <a href="https://www.w3schools.com/js/js_json.asp">'json()'</a>, foi utilizado o <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">.then()</a> que armazena os dados do <a href="https://www.w3schools.com/js/js_json.asp">json()</a> em alguma variável.
 
-Utilizando novamente o método <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">'.then()'</a>, porém, agora para outra utilidade, para pegar os dados armazenados e buscar os itens necessários para a aplicação, utilizando o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map">'.map()'</a> para localizar os itens específicos, que os armazenão em uma variável constante, além de serem posicionados de uma forma que quando enviados para o html já estejam com as tags necessárias.
+Utilizando novamente o método <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">.then()</a>, porém, agora para outra utilidade, para pegar os dados armazenados e buscar os itens necessários para a aplicação, utilizando o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/map">.map()</a> para localizar os itens específicos, que os armazenão em uma variável constante, além de serem posicionados de uma forma que quando enviados para o html já estejam com as tags necessárias.
 
 Para mandar os dados requeridos da api para o html, utiliza-se o  'innerHTML'
 
@@ -28,4 +28,4 @@ Por algum motivo a quantidade de páginas que podem ser acessadas fica estática
 
 Não tive conhecimento para fazer no final a páginação com a quantidade de repositórios assim como quando se pesquisa algo no <a href="https://github.com/search?q=node&ref=simplesearch">GitHub</a>. Mesmo pesquisando não consegui fazer.
 
-Tentei utilizar o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat">'.Intl.datetimeformat()'</a> para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
+Tentei utilizar o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat">.Intl.datetimeformat()</a> para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
