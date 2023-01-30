@@ -19,6 +19,7 @@ form.addEventListener('submit', function(event) {
     })
 
     .then(corpo => { 
+        console.log(corpo)
     const qtd_repo = corpo.total_count
     const item = corpo.items.map( ({ owner, name, language, description, updated_at, stargazers_count, svn_url}) => //mapeando dentro do array os itens necessários
     `<div class="per_list">
