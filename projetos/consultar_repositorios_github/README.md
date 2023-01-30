@@ -24,8 +24,8 @@ Por fim assim utilizando a api para receber dados dos repositórios do GitHub.
 
 ----------------------------------------------------------------------------------------------------
 Observações:
--Por algum motivo a quantidade de páginas que podem ser acessadas fica estática de 0 á 34. Não sei se é erro no código ou é a api que disponibiliza essa quantidade máxima de páginas.
+Por algum motivo a quantidade de páginas que podem ser acessadas fica estática de 0 á 34. Não sei se é erro no código ou é a api que disponibiliza essa quantidade máxima de páginas.
 
--Não tive conhecimento para fazer no final a páginação com a quantidade de repositórios assim como quando se pesquisa algo no <a href="https://github.com/search?q=node&ref=simplesearch">GitHub</a>. Mesmo pesquisando não consegui fazer.
+Não tive conhecimento para fazer no final a páginação com a quantidade de repositórios assim como quando se pesquisa algo no <a href="https://github.com/search?q=node&ref=simplesearch">GitHub</a>. Mesmo pesquisando não consegui fazer.
 
--Tentei utilizar o '.Intl.datetimeformat()' para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
+Tentei utilizar o '.Intl.datetimeformat()' para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
