@@ -28,4 +28,4 @@ Por algum motivo a quantidade de páginas que podem ser acessadas fica estática
 
 Não tive conhecimento para fazer no final a páginação com a quantidade de repositórios assim como quando se pesquisa algo no <a href="https://github.com/search?q=node&ref=simplesearch">GitHub</a>. Mesmo pesquisando não consegui fazer.
 
-Tentei utilizar o '.Intl.datetimeformat()' para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
+Tentei utilizar o <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat">'.Intl.datetimeformat()'</a> para formatar a data, mas dava erro e não consegui resolver também. Algo no meu código com certeza.
