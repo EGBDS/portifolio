@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-width: 590px;
+    background-image: linear-gradient(to right, black, rgb(65, 57, 57));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;        /* rgb(31, 30, 30),rgb(65, 57, 57) */
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    width: 96vw;
+    margin: 1%;
+    background-color: rgb(46, 44, 44);
+    border: 1px solid green;
+}
+
+main {
+    text-align: center;
+    width: 90vw;
+    background-image: linear-gradient(to right, rgb(65, 57, 57), black);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+form{
+    margin: 10px;
+}
+
+input{
+    margin: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+.per_list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    margin: 10px 100px ;
+    background-color: black;
+    border-radius: 20px;
+}
+
+#starga{
+    align-items: flex-end;
+}
+
+a {
+    color: rgba(0, 255, 255, 0.541);
+    font-size: x-large;
+}
+
+a:hover{
+    color: rgba(0, 255, 255, 0.349);
+    text-decoration: underline;
+}
+
+.material-icons{
+    color: brown;
+    text-decoration: none;
+}
+
+#star{
+    color: yellow;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+}
+
+#starga {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: large;
+}
+
+#org_itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao_input {
+    padding: 4px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border-width: 3px;
+    border-color: bisque;
+}
+
+#botao_input:hover {
+    background-color: rgb(185, 172, 172);
+    border-color: rgb(151, 112, 112);
+    font-weight: bold;
+}
