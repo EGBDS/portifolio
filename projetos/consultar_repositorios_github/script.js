@@ -19,8 +19,9 @@ form.addEventListener('submit', function(event) {
     })
 
     .then(resposta => { 
-        console.log(resposta)
+
     const qtd_repo = resposta.total_count
+
     const item = resposta.items.map( ({ owner, name, language, description, updated_at, stargazers_count, svn_url}) => //mapeando dentro do array os itens necessários
     `<div class="per_list">
             <a href="${svn_url}" id="login_name" target="_blank">
