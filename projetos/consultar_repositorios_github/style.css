@@ -71,12 +71,12 @@ a {
 
 a:hover{
     color: rgba(0, 255, 255, 0.349);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .material-icons{
+    list-style: none;
     color: brown;
-    text-decoration: none;
 }
 
 #star{
@@ -125,4 +125,13 @@ a:hover{
         flex-direction: column-reverse;
         align-items: flex-start;
     }
+
+    .per_list{
+        margin: 5px 10px;
+    }
+
+    main {
+        background-image: linear-gradient(to right, rgb(65, 57, 57), rgba(0, 0, 0, 0.836));
+    }
+
 }
